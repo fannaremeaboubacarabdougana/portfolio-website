@@ -636,3 +636,64 @@ body {
     color: #94A3B8;
 
 }
+
+.theme-btn{
+
+    border:none;
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:10px 14px;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.theme-btn:hover{
+
+    transform:rotate(20deg);
+
+}
+
+body.dark{
+
+    background:#111827;
+
+    color:#F9FAFB;
+
+}
+
+body.dark nav{
+
+    background:#1F2937;
+
+}
+
+body.dark .project-card,
+body.dark .skill-card{
+
+    background:#1F2937;
+
+    color:white;
+
+}
+
+body.dark footer{
+
+    background:#111827;
+
+}
+
+body.dark a{
+
+    color:white;
+
+}

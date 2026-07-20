@@ -65,3 +65,9 @@
     width: 260px;
 
 }
+
+.contact-container {
+
+    grid-template-columns: 1fr;
+
+}
