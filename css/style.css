@@ -637,63 +637,75 @@ body {
 
 }
 
-.theme-btn{
+.theme-btn {
 
-    border:none;
+    border: none;
 
-    background:#2563EB;
+    background: #2563EB;
 
-    color:white;
+    color: white;
 
-    padding:10px 14px;
+    padding: 10px 14px;
 
-    border-radius:50%;
+    border-radius: 50%;
 
-    cursor:pointer;
+    cursor: pointer;
 
-    font-size:18px;
+    font-size: 18px;
 
-    transition:.3s;
-
-}
-
-.theme-btn:hover{
-
-    transform:rotate(20deg);
+    transition: .3s;
 
 }
 
-body.dark{
+.theme-btn:hover {
 
-    background:#111827;
-
-    color:#F9FAFB;
+    transform: rotate(20deg);
 
 }
 
-body.dark nav{
+body.dark {
 
-    background:#1F2937;
+    background: #111827;
+
+    color: #F9FAFB;
+
+}
+
+body.dark nav {
+
+    background: #1F2937;
 
 }
 
 body.dark .project-card,
-body.dark .skill-card{
+body.dark .skill-card {
 
-    background:#1F2937;
+    background: #1F2937;
 
-    color:white;
-
-}
-
-body.dark footer{
-
-    background:#111827;
+    color: white;
 
 }
 
-body.dark a{
+body.dark footer {
 
-    color:white;
+    background: #111827;
+
+}
+
+body.dark a {
+
+    color: white;
+
+}
+
+/* Hamburger */
+
+.hamburger {
+
+    display: none;
+
+    font-size: 28px;
+
+    cursor: pointer;
 
 }
