@@ -14,7 +14,21 @@ The website serves as my online professional portfolio, allowing recruiters, cli
 
 ## 📸 Preview
 
-> Screenshots will be added soon.
+### Home
+
+![Home](screenshots/home.png)
+
+### About & Skills
+
+![About](screenshots/about.png)
+![Skills](screenshots/skills.png)
+### Projects
+
+![Projects](screenshots/projects.png)
+
+### Contact
+
+![Contact](screenshots/contact.png)
 
 ---
 
