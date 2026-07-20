@@ -17,3 +17,37 @@
     }
 
 }
+
+.hero {
+
+    flex-direction: column-reverse;
+
+    text-align: center;
+
+    gap: 40px;
+
+}
+
+.hero-buttons {
+
+    justify-content: center;
+
+}
+
+.hero h1 {
+
+    font-size: 42px;
+
+}
+
+.hero h2 {
+
+    font-size: 22px;
+
+}
+
+.hero-image img {
+
+    width: 260px;
+
+}
