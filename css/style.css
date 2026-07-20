@@ -1,9 +1,20 @@
 /* Reset */
+html {
+
+    scroll-behavior: smooth;
+
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -143,15 +154,17 @@ body {
 
 .btn {
 
-    padding: 15px 35px;
+    display: inline-block;
 
-    text-decoration: none;
+    padding: 14px 30px;
 
     border-radius: 8px;
 
+    text-decoration: none;
+
     font-weight: 600;
 
-    transition: .3s;
+    transition: all .3s ease;
 
 }
 
@@ -165,7 +178,9 @@ body {
 
 .btn-primary:hover {
 
-    background: #1D4ED8;
+    transform: translateY(-3px);
+
+    box-shadow: 0 12px 25px rgba(37, 99, 235, .30);
 
 }
 
@@ -182,6 +197,8 @@ body {
     background: #2563EB;
 
     color: white;
+
+    transform: translateY(-3px);
 
 }
 
@@ -312,7 +329,10 @@ body {
 
 .project-card:hover {
 
-    transform: translateY(-8px);
+    transform: translateY(-12px);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .12);
+
 
 }
 
@@ -323,6 +343,14 @@ body {
     height: 220px;
 
     object-fit: cover;
+
+    transition: .4s;
+
+}
+
+.project-card:hover img {
+
+    transform: scale(1.05);
 
 }
 
@@ -410,7 +438,9 @@ body {
 
 .skill-card:hover {
 
-    transform: translateY(-8px);
+    transform: translateY(-10px);
+
+    box-shadow: 0 18px 35px rgba(0, 0, 0, .12);
 
 }
 
